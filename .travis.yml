@@ -1,0 +1,30 @@
+branches:
+  only:
+    - master
+
+language: android
+sudo: false
+jdk:
+  - oraclejdk8
+
+env:
+global:
+- ANDROID_TARGET=android-23
+- BUILD_TOOLS=build-tools-23.0.3
+
+android:
+  components:
+    - $BUILD_TOOLS
+    - $ANDROID_TARGET
+    - extra-android-support
+    - extra-android-m2repository
+    - extra-google-google_play_services
+
+script:
+  - ./gradlew :sdk:clean :sdk:test
+
+
+cache:
+  directories:
+    - $HOME/.gradle
+    - $HOME/.m2/repository
