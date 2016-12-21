@@ -18,7 +18,6 @@ android:
     - $ANDROID_TARGET
     - extra-android-support
     - extra-android-m2repository
-    - extra-google-google_play_services
 
 licenses:
   - 'android-sdk-license-.+'
