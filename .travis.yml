@@ -9,8 +9,8 @@ jdk:
 
 env:
   global:
-    - ANDROID_TARGET=android-23
-    - BUILD_TOOLS=build-tools-23.0.3
+    - ANDROID_TARGET=android-24
+    - BUILD_TOOLS=build-tools-24.0.3
 
 android:
   components:
