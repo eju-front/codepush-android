@@ -1,0 +1,1 @@
+./gradlew :sdk:clean :sdk:assemble :sdk:releaseJar

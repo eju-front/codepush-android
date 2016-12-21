@@ -1,0 +1,12 @@
+task releaseJar(type: Jar) {
+    baseName 'libEjuCodePush'
+    classifier 'release'
+
+    FileTree tree = fileTree('build/intermediates/classes/release')
+    tree.exclude('**/BuildConfig.class', '**/R.class')
+    tree.exclude('**/R$*.class')
+    from tree
+
+    destinationDir file('../library/')
+}
+releaseJar.dependsOn(build)
