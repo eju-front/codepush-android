@@ -2,7 +2,7 @@
 
 ## 安装方法
 
-将 `library` 目录下的 `libEjuCodePush-release.jar` 放在应用的 `libs` 目录下
+将 [Release](https://github.com/eju-front/codepush-android/releases) 下的 `libEjuCodePush.jar` 放在应用的 `libs` 目录下
 
 ## 使用指南
 
@@ -75,5 +75,5 @@
 
  	以上 `syncInBackground()` 方法的参数依次为 `Activity`, `有新版本的提示信息`，`确定按钮文字`,`取消按钮文字`，`下载对话框标题`，`下载对话框信息`。
 
-EjuCodePush 支持下次更新和强制更新两种方式，只有强制更新时以上回调才会被执行。
+>EjuCodePush 支持下次更新和强制更新两种方式，只有强制更新时以上回调才会被执行。
 `onSuccess()` 回调的两个参数,其中 `isUpdate` 表示此次是否进行了更新操作,`needReload` 表示 h5 资源是否进行了更新
