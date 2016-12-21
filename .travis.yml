@@ -8,9 +8,9 @@ jdk:
   - oraclejdk8
 
 env:
-global:
-- ANDROID_TARGET=android-23
-- BUILD_TOOLS=build-tools-23.0.3
+  global:
+    - ANDROID_TARGET=android-23
+    - BUILD_TOOLS=build-tools-23.0.3
 
 android:
   components:
