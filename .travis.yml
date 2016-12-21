@@ -19,10 +19,8 @@ android:
     - extra-android-support
     - extra-android-m2repository
 
-licenses:
-    - 'android-sdk-preview-license-52d11cd2'
+  licenses:
     - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
 
 script:
   - ./gradlew :sdk:clean :sdk:test
