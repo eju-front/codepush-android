@@ -1,3 +1,6 @@
+[![License][license-image]][license-url]
+[![Build Status][travis-image]][travis-url]
+
 # Eju CodePush Android
 
 ## 安装方法
@@ -77,3 +80,10 @@
 
 >EjuCodePush 支持下次更新和强制更新两种方式，只有强制更新时以上回调才会被执行。
 `onSuccess()` 回调的两个参数,其中 `isUpdate` 表示此次是否进行了更新操作,`needReload` 表示 h5 资源是否进行了更新
+
+
+[license-image]: https://img.shields.io/badge/license-apache-blue.svg?style=flat
+[license-url]: LICENSE
+
+[travis-image]: https://travis-ci.org/eju-front/codepush-android.svg?branch=master
+[travis-url]: https://travis-ci.org/eju-front/codepush-android
