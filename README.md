@@ -9,6 +9,12 @@
 
 ## 使用指南
 
+### 服务端接口设计
+
+参见 [wiki](https://github.com/eju-front/codepush-android/wiki)
+
+### SDK 使用
+
 1. 自定义 Application, 在 `onCreate()` 方法中初始化 EjuCodePush 对象
 
   ```java
